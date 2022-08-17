@@ -39,7 +39,7 @@ limit: 10
 
 query:
 {
-  partners: []
+  partners: {$exists: 0}
 }
 
 ### 7. All the companies that have a null type of value on the `category_code` field.
